@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-space {
+    grid-column-gap: 5rem;
+}
+.grid-space-small {
+    grid-column-gap: 2rem;
+}
+
+@media (min-width: 43.25rem) {
+    .grid.two-column {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 20rem) {
+    .grid.one-column {
+        grid-template-columns: 1fr;
+    }
+}

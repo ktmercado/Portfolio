@@ -1,0 +1,252 @@
+body {
+    font-family: "Roboto", Tahoma, sans-serif;
+    color: black;
+    /* padding: 2rem; */
+    /* max-width: 75rem; */
+    margin: auto;
+}
+
+.body-padding {
+    padding: 3rem 2rem;
+    max-width: 75rem;
+    margin: auto;
+}
+
+.section-space {
+    padding-top: 3rem;
+}
+
+.logo {
+    /* padding: 1.5rem; */
+    display: inline-block;
+    left: 0;
+    margin: auto;
+    width: 7rem;
+    height: auto;
+}
+.nav-main {
+    color: white;
+    text-decoration: none;
+    padding: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    /* font-size: 1.25rem; */
+    /* margin: auto; */
+    left: 0;
+}
+
+.nav-main:hover, .nav-main:focus {
+    background-color: #154B79;
+}
+
+.button {
+    color: white;
+    background-color: #8AC5EB;
+    text-decoration: none;
+    padding: 0.75rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.button:hover, button:focus {
+    background-color: #154B79;
+}
+
+.text-link {
+    color: #8AC5EB;
+    text-decoration: none;
+}
+
+.text-link:hover, .text-link:focus {
+    color: #154B79;
+}
+header {
+    background-color: #8AC5EB;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+/* HERO SECTION */
+/* Source for creating hero image: https://www.w3schools.com/howto/howto_css_hero_image.asp */
+/* Hero image for homepage */
+.hero-image-home {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/Homepage-Hero/homepage-hero2.jpg");
+    /* width: 100%; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+/* Hero image for project page */
+.hero-image-proj {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/SyringeExt-Project/IgniteSyringeExt-Print_wide.jpg");
+    /* width: 100%; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.hero-text {
+    text-align: center;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    color: white;
+    padding: 8rem 2rem;
+    max-width: 60rem;
+    margin: auto;
+}
+
+/* .hero-bg {
+    background-color: #8AC5EB;
+    color: white;
+} */
+
+footer {
+    background-color:#8AC5EB;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    left: 0;
+    padding: 1rem 0;
+}
+
+@media (min-width: 43.25rem) {
+    .footer-abt {
+        position: fixed;
+    }
+}
+
+footer a {
+    color: white;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:focus {
+    color: #154B79;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.white-text {
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+.regular-text {
+    font-weight: normal;
+}
+
+figcaption {
+    font-size: 0.75rem;
+}
+
+/* Class below taken from divider class in my P1 Style Guide */
+.divider {
+    border-top-width: 0.5rem;
+    border-top-style: solid;
+    border-top-color: #8AC5EB;
+    max-width: 4rem;
+    margin: auto;
+}
+
+.bio-image {
+    width: 100%;
+    height: auto;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.image-small {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+/* STYLING FOR RESPONSIVE MENU */
+nav {
+    /* margin-top: auto; */
+    margin-bottom: auto;
+    /* width: fit-content; */
+    height: fit-content;
+}
+
+nav .icon {
+    display: none;
+    color: white;
+    /* width: 2rem; */
+    height: auto;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    /* padding-bottom: 1rem; */
+}
+
+/* .nav-padding {
+    padding-top: 1rem;
+} */
+
+@media screen and (max-width: 50rem) {
+    nav a:not(:first-child) {
+        display: none;
+    }
+    nav a.icon {
+        float: right;
+        display: block;
+        color: white;
+    }
+ 
+}
+
+@media screen and (max-width: 50rem) {
+    nav.responsive {
+        position: relative;
+    }
+    nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: white;
+    }
+    nav.responsive a {
+        float: none; 
+        display: block;
+        text-align: left;
+    }
+}
+
+/* ICON STYLING */
+/* Source for adding social media icon links: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+.fa {
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.fa-linkedin {
+    color: white;
+    /* left: 50%; */
+}
+
+.fa-instagram {
+    color: white;
+}

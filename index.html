@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Kirsten's Portfolio</title>
+        
+        <!-- <link href="css/font.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/grid.css" rel="stylesheet"> -->
+
+        <!-- LINKING COMPRESSED CSS FILE -->
+        <link href="css/main-comp.css" rel="stylesheet">
+
+        <!-- LOADING HAMBURGER ICON-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- LOADING ICON LIBRARY FOR SOCIAL MEDIA ICONS -->
+    </head>
+
+    <body>
+        <header>
+            <!-- NAVIGATION -->
+            <nav class="nav" id="responsiveMenu">
+                <a href="index.html" class="nav-main"><img src="img/Logos/KMERC_logo-white-small.png" class="logo" alt="KMERC logo that links back to the homepage" width="112" height="33"></a>
+                <a href="index.html" class="nav-main">Home</a>
+                <a href="projects.html" class="nav-main">Projects</a>
+                <a href="about.html" class="nav-main">About</a>
+                 <!-- Site referenced for Font Awesome accessbility and aria labels: https://fontawesome.com/docs/web/dig-deeper/accessibility  -->
+                <a aria-label="Expand navigation menu" href="javascript:void(0);" class="icon nav-padding" onclick="menuFunction()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+            </nav>
+        </header>
+
+        <!-- "HERO" SECTION. Source for creating hero image: https://www.w3schools.com/howto/howto_css_hero_image.asp -->
+        <div class="hero-image-home">
+            <div class="hero-text">
+                <h1 class="uppercase-text">Kirsten Mercado</h1>
+                <div class="divider"></div>
+                    <h2>Minimalistic Graphic Designer</h2>
+                    <p>Graphic Designer based in Vancouver, BC, Canada with a minimalistic design style and extensive experience in designing various digital and print media, and branding.</p>
+            </div>
+        </div>
+
+        <!-- RECENT PROJECTS SECTIONS -->
+        <div class="body-padding">
+            <div>
+                <h2 class="center-text regular-text uppercase-text">Recent Projects</h2>
+                <div class="divider"></div>
+                <section class="section-space grid two-column grid-space">
+                    <div>
+                        <img src="img/SyringeExt-Project/IgniteSyringeExt-Print.jpg" alt="Printed Ignite Syringe Extender Instruction Card" class="image" width="400" height="300">
+                    </div>
+                    <div>
+                        <h3>Ignite Syringe Extender Instruction Card</h3>
+                        <p>Printed instruction card created during my co-op term as a Graphic Designer at <a href="https://www.precisionnanosystems.com/" class="text-link">Precision NanoSystems (PNI)</a> that explains how to use the new extenders with certain syringes on the Ignite Instrument.</p>
+                        <a href="projects.html" class="button">Learn More</a>
+                        <!-- <a href="projects.html/#illustration" class="button">Illustration Design</a>
+                        <a href="projects.html/#printed-card" class="button">Approving Print</a>
+                        <a href="projects.html/#reflection" class="button">Reflection</a> -->
+                    </div>
+                </section>
+            </div>
+        </div>
+            
+        <!-- LOADING responsive-menu.js -->
+        <!-- <script src="responsive-menu.js"></script> -->
+
+        <!-- LINKING COMPRESSED JS FILE FOR RESPONSIVE MENU -->
+        <script src="responsive-menu-comp.js"></script>
+
+        <!-- FOOTER -->
+        <footer class="center-text">
+            <h2 class="center-text uppercase-text white-text">Let's Connect</h2>
+            <!-- <p class="center-text white-text">kmercado@sfu.ca | kmercado2k16@gmail.com</p> -->
+
+            <!-- Source for adding email links: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto -->
+            <a href="mailto:kmercado@sfu.ca">kmercado@sfu.ca</a>
+            <a href="mailto:kmercado2k16@gmail.com">kmercado2k16@gmail.com</a>
+            <a href="https://www.linkedin.com/in/ktmercado/">LinkedIn</a>
+            <a href="https://www.instagram.com/kmerccreates/">Instagram</a>
+
+            <!-- INSERT SOCIAL ICONS/LINKS HERE -->
+            <!-- Source for adding social media icon links: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+            <!-- <a href="https://www.linkedin.com/in/ktmercado/" class="fa fa-linkedin fa-2x"></a>
+            <a href="https://www.instagram.com/kmerccreates/" class="fa fa-instagram fa-2x"></a> -->
+
+            <!-- INSERT OTHER CONTACT INFO -->
+        </footer>
+    </body>
+
+</html>
